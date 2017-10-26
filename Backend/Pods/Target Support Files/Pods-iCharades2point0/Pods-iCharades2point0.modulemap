@@ -1,0 +1,6 @@
+framework module Pods_iCharades2point0 {
+  umbrella header "Pods-iCharades2point0-umbrella.h"
+
+  export *
+  module * { export * }
+}

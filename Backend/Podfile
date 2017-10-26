@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iCharades2point0' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iCharades2point0
+  # Firebase/Core is the core backend incl analytics
+  pod 'Firebase/Core'
+  #Firebase/Auth is for user authentication
+  pod 'Firebase/Auth'
+  #Firebase/Database is for backround data
+  pod 'Firebase/Database'
+  #Firebase/Storage is for storing images
+  pod 'Firebase/Storage'
+
+end
