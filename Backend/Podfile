@@ -14,5 +14,8 @@ target 'iCharades2point0' do
   pod 'Firebase/Database'
   #Firebase/Storage is for storing images
   pod 'Firebase/Storage'
+  
+  #Facebook single sign on
+  pod 'FBSDKLoginKit'
 
 end
