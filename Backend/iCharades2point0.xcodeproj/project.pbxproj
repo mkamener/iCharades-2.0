@@ -13,6 +13,11 @@
 		4415E2DB1FA1AF930037AC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4415E2DA1FA1AF930037AC0A /* Assets.xcassets */; };
 		4415E2DE1FA1AF930037AC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4415E2DC1FA1AF930037AC0A /* LaunchScreen.storyboard */; };
 		4415E2EA1FA402F60037AC0A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4415E2E91FA402F60037AC0A /* GoogleService-Info.plist */; };
+		4415E2EF1FA405390037AC0A /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415E2EE1FA405390037AC0A /* CustomHeaderView.swift */; };
+		4415E2F21FA405B40037AC0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415E2F11FA405B40037AC0A /* Constants.swift */; };
+		4415E2F41FA408810037AC0A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415E2F31FA408810037AC0A /* RoundButton.swift */; };
+		4415E2F61FA40DAC0037AC0A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415E2F51FA40DAC0037AC0A /* CustomTextField.swift */; };
+		4415E2F81FA412300037AC0A /* LogInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415E2F71FA412300037AC0A /* LogInButton.swift */; };
 		6B0B3891E97595C72FEA7FCB /* Pods_iCharades2point0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A14E8862A8FF588229AFE4 /* Pods_iCharades2point0.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +32,11 @@
 		4415E2DD1FA1AF930037AC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4415E2DF1FA1AF930037AC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4415E2E91FA402F60037AC0A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4415E2EE1FA405390037AC0A /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		4415E2F11FA405B40037AC0A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4415E2F31FA408810037AC0A /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		4415E2F51FA40DAC0037AC0A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4415E2F71FA412300037AC0A /* LogInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInButton.swift; sourceTree = "<group>"; };
 		7BA14D028080A0DD3E57730C /* Pods-iCharades2point0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCharades2point0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCharades2point0/Pods-iCharades2point0.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +90,7 @@
 		4415E2D21FA1AF930037AC0A /* iCharades2point0 */ = {
 			isa = PBXGroup;
 			children = (
+				4415E2F01FA4059A0037AC0A /* Utilities */,
 				4415E2E61FA1B36F0037AC0A /* Model */,
 				4415E2E71FA1B3770037AC0A /* Controller */,
 				4415E2E81FA1B3810037AC0A /* View */,
@@ -111,8 +122,20 @@
 		4415E2E81FA1B3810037AC0A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4415E2EE1FA405390037AC0A /* CustomHeaderView.swift */,
+				4415E2F31FA408810037AC0A /* RoundButton.swift */,
+				4415E2F51FA40DAC0037AC0A /* CustomTextField.swift */,
+				4415E2F71FA412300037AC0A /* LogInButton.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4415E2F01FA4059A0037AC0A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4415E2F11FA405B40037AC0A /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4415E2D61FA1AF930037AC0A /* SignInVC.swift in Sources */,
+				4415E2F41FA408810037AC0A /* RoundButton.swift in Sources */,
+				4415E2F81FA412300037AC0A /* LogInButton.swift in Sources */,
+				4415E2F61FA40DAC0037AC0A /* CustomTextField.swift in Sources */,
+				4415E2EF1FA405390037AC0A /* CustomHeaderView.swift in Sources */,
 				4415E2D41FA1AF930037AC0A /* AppDelegate.swift in Sources */,
+				4415E2F21FA405B40037AC0A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
