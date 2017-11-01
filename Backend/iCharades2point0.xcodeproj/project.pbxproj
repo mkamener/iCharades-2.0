@@ -92,8 +92,8 @@
 			children = (
 				4415E2F01FA4059A0037AC0A /* Utilities */,
 				4415E2E61FA1B36F0037AC0A /* Model */,
-				4415E2E71FA1B3770037AC0A /* Controller */,
 				4415E2E81FA1B3810037AC0A /* View */,
+				4415E2E71FA1B3770037AC0A /* Controller */,
 				4415E2D31FA1AF930037AC0A /* AppDelegate.swift */,
 				4415E2D71FA1AF930037AC0A /* Main.storyboard */,
 				4415E2DA1FA1AF930037AC0A /* Assets.xcassets */,
