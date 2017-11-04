@@ -17,5 +17,8 @@ target 'iCharades2point0' do
   
   #Facebook single sign on
   pod 'FBSDKLoginKit'
+  
+  #Keychain wrapper allows auto-sign in
+  pod 'SwiftKeychainWrapper'
 
 end
