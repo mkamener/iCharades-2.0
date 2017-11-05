@@ -20,6 +20,7 @@
 		4415E2F81FA412300037AC0A /* LogInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4415E2F71FA412300037AC0A /* LogInButton.swift */; };
 		44712AB71FADAA7200965B83 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44712AB61FADAA7200965B83 /* FeedVC.swift */; };
 		44712AB91FAEA41700965B83 /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44712AB81FAEA41700965B83 /* RoundImage.swift */; };
+		44712ABB1FAF21C900965B83 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44712ABA1FAF21C900965B83 /* PostCell.swift */; };
 		6B0B3891E97595C72FEA7FCB /* Pods_iCharades2point0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A14E8862A8FF588229AFE4 /* Pods_iCharades2point0.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		4415E2F71FA412300037AC0A /* LogInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInButton.swift; sourceTree = "<group>"; };
 		44712AB61FADAA7200965B83 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		44712AB81FAEA41700965B83 /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
+		44712ABA1FAF21C900965B83 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		7BA14D028080A0DD3E57730C /* Pods-iCharades2point0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCharades2point0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCharades2point0/Pods-iCharades2point0.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 				4415E2F51FA40DAC0037AC0A /* CustomTextField.swift */,
 				4415E2F71FA412300037AC0A /* LogInButton.swift */,
 				44712AB81FAEA41700965B83 /* RoundImage.swift */,
+				44712ABA1FAF21C900965B83 /* PostCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				4415E2EF1FA405390037AC0A /* CustomHeaderView.swift in Sources */,
 				4415E2D41FA1AF930037AC0A /* AppDelegate.swift in Sources */,
 				4415E2F21FA405B40037AC0A /* Constants.swift in Sources */,
+				44712ABB1FAF21C900965B83 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
