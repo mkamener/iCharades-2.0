@@ -22,6 +22,7 @@
 		44712AB91FAEA41700965B83 /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44712AB81FAEA41700965B83 /* RoundImage.swift */; };
 		44712ABB1FAF21C900965B83 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44712ABA1FAF21C900965B83 /* PostCell.swift */; };
 		44712ABE1FAFE86A00965B83 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44712ABD1FAFE86A00965B83 /* DataService.swift */; };
+		44712AC01FB039F600965B83 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44712ABF1FB039F600965B83 /* Post.swift */; };
 		6B0B3891E97595C72FEA7FCB /* Pods_iCharades2point0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A14E8862A8FF588229AFE4 /* Pods_iCharades2point0.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		44712AB81FAEA41700965B83 /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
 		44712ABA1FAF21C900965B83 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		44712ABD1FAFE86A00965B83 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		44712ABF1FB039F600965B83 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7BA14D028080A0DD3E57730C /* Pods-iCharades2point0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCharades2point0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCharades2point0/Pods-iCharades2point0.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 		4415E2E61FA1B36F0037AC0A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				44712ABF1FB039F600965B83 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				4415E2D61FA1AF930037AC0A /* SignInVC.swift in Sources */,
 				4415E2F41FA408810037AC0A /* RoundButton.swift in Sources */,
 				4415E2F81FA412300037AC0A /* LogInButton.swift in Sources */,
+				44712AC01FB039F600965B83 /* Post.swift in Sources */,
 				4415E2F61FA40DAC0037AC0A /* CustomTextField.swift in Sources */,
 				44712AB91FAEA41700965B83 /* RoundImage.swift in Sources */,
 				44712ABE1FAFE86A00965B83 /* DataService.swift in Sources */,
